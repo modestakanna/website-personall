@@ -1,0 +1,316 @@
+/*semua style dan html paragraf dan sebagainya */
+*{
+	text-decoration: none;
+	margin: 0;
+	padding-block: 0px;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Open Sans',sans-serif;
+}
+
+/* untuk wrapper */
+.wrapper {
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+/* untuk logo Selamat datang di perjalanan waktu*/
+.logo {
+	font-size: 25px;
+	font-weight: 80px;
+	float: left;
+	font-family: font-serif;
+	color: #364F6B;
+}
+
+.menu{
+	float: right;
+
+}
+/* flex itu membuat seperti kolom-kolom di gambar atau tulisannya biar tidak menyatu dan border bootom agar 
+garis cuma dibawah saja bisa juga cuma di samping dll */
+nav {
+	width: 100%;
+	height: 10%;
+	display: flex;
+	position: fixed;
+	justify-content: space-between;
+	align-items: center;
+	top: 0;
+	background: #FBF5E5;
+	z-index: 1;
+	border-bottom: 4px solid black;
+	padding: 0px 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+}
+
+/* untuk bagian link atau a href nya yg home dan kawannya paddinya searah jarum jam atau dari atas*/
+nav ul li a {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+
+/* memberikan garis bawah untuk tombol navigasinya */
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+/*bagian nav kedua*/
+section {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;	
+}
+
+}
+.kolom{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+.kolom img {
+	width: 50%;
+	margin: 0px 0px 0px 100px;
+}
+
+}
+/* mengatur dari selamat datang */
+.kolom .tkskolom {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'comic sans ms';
+	color: #364F6B;
+}
+.kolom1 {
+	margin-bottom: 10%;
+}
+.kolom1 h2 {
+	margin-bottom: 90px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.kolom1 .lom {
+	height: 40vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.kolom1 .kol p{
+	width: 65%;
+	margin: 0px 0px 0px 50px;
+}
+.kolom1 img {
+	max-width: 40%;
+	height: auto;
+	margin: 0px 30px;
+}
+.kolom h1 {
+	margin-bottom: 3%;
+	text-align: center;
+	margin: 100px 0px 0px 30%;
+}
+
+.wrap p {
+	text-align: center;
+}
+
+.wrap img {
+	margin: 0px 0px 0px 300px;
+	width: 700px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 45px;
+    margin-bottom: 20px;
+    color: #364F6B;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-pink {
+	background: #FC5185;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	padding: 15px 20px 15px 20px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+/* mengatur saat cursor diatas text pelajari lebih lanjut akan berwarna biru*/
+a.tbl-pink:hover {
+	background: #3F72AF;
+	text-decoration: none;
+}
+
+a.tbl-biru {
+	background: #3F72AF;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	padding: 15px 20px 15px 20px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-weight: bold;
+}
+a.tbl-biru:hover {
+	background: #FC5185;
+	text-decoration: none;
+}
+/* mengatur text yg ada lorem nya*/
+p {
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+	text-align: center;
+	width: 100%;
+}
+/* flex-wrap tidak terlalu menjadi 1 baris*/
+.tutor-list {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+/* total ukuran dari kartu tutor img */
+.kartu-tutor {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.kartu-tutor img {
+	width: 80%;
+	border-radius: 50%;
+}
+
+.kartu-tutor p {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 15px;
+	text-align: center;
+	color: #364F6B;
+}
+
+/* untuk patner*/
+.patner-list {
+   width: 100%;
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.kartu-patner1 {
+	width: 23%;
+	margin: 0 auto;
+}
+
+.kartu-patner2 {
+	width: 30%;
+	margin: 0 auto;
+}
+.kartu-patner3 {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.kartu-patner1 p{
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 25px;
+	text-align: center;
+	margin: 0px 0px 0px 30%;
+	color: #364F6B;
+}
+
+.kartu-patner2 p{
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 25px;
+	text-align: center;
+	margin: 0px 0px 0px 30%;
+	color: #364F6B;
+}
+
+.kartu-patner3 p{
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 25px;
+	text-align: center;
+	margin: 0px 0px 0px 30%;
+	color: #364F6B;
+}
+
+.kartu-patner1 img {
+	width: 180px;
+	border-radius: 50%;
+}
+
+.kartu-patner2 img {
+	width: 180px;
+	border-radius: 50%;
+}
+
+.kartu-patner3 img {
+	width: 180px;
+	border-radius: 50%;
+}
+#contact {
+background: #dedede;
+padding: 50px 0px 50px 0px;
+}
+
+.footer {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.footer-section {
+	width: 20%;
+	margin: auto;
+}
+
+h3 {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: #364F6B;
+	width: 100%;
+	line-height: 50px;
+}
+
+/* untuk copyright*/
+#copyright {
+	text-align: center;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	margin-top: 50px;
+}
+
